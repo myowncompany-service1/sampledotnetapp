@@ -22,7 +22,7 @@ on:
     branches: [ "main" ]
   schedule:
     - cron: '17 8 * * 0'
-concurrency: staging_environment   
+   
 jobs:
   analyze:
     name: Analyze
